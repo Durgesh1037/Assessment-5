@@ -1,0 +1,118 @@
+body
+{
+   background-image: url("./cloud.jpg");
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+#head1
+{
+   /* height: 50%;
+   width: 50%; */
+   margin-top: 180px;
+   /* background-image: url("./back.jpg"); */
+   margin-left: -20px;
+}
+#head2
+{
+   /* height: 50%;
+   width: 50%; */
+   /* margin-top: 180px; */
+   background-image: url("./back.jpg");
+   margin-left: -20px;
+   margin-top: -10px;
+   position: absolute;
+   width: 1000px;
+   height: 200px;
+   /* margin-top: 130px; */
+   animation: div-4 4s linear  infinite;
+   animation-delay: 1s
+   
+}
+#span1
+{
+    background-color: violet;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#span2
+{
+    background-color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#span3
+{
+    background-color: green;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#head3
+{
+    width: 200px;
+    height: 200px;
+    margin-left:50px;
+    margin: -420px;
+    padding: 50px;
+    /* background-color:black; */
+    /* position: fixed; */
+    animation: div-3 4s linear  infinite;
+    animation-delay: 1s;
+    animation-direction: normal;
+    /* background-color: black; */
+}
+@keyframes div-3
+{
+    100%
+    {
+        transform: translateX(300px);
+    }
+}
+#head4
+{
+    width: 200px;
+    height: 200px;
+    margin-left:50px;
+    margin: -420px;
+    padding: 50px;
+    position: absolute;
+    margin: -64px;
+    padding: 20px;
+    /* padding-top: 2px; */
+    animation: div-wheel 4s linear  infinite;
+    animation-delay: 1s;
+    /* animation-direction: normal; */
+    margin-left: -78px;
+}
+img{
+    animation: div-4 5s linear  infinite;
+    animation-delay: 1s;
+}
+@keyframes div-4
+{
+    100%
+    {
+        transform: translateX(-200px);
+    }
+}
+@keyframes div-wheel
+{
+    100%
+    {
+        transform: translateX(0px);
+    }
+}
+#head5
+{
+    width: 200px;
+    height: 200px;
+    margin-left:50px;
+    margin: -420px;
+    padding: 50px;
+    /* position: absolute; */
+    margin: -202px;
+    padding: 150px;
+    padding: 158px;
+/* padding-top: 2px; */
+margin-left: -68px;
+    /* padding-top: 2px; */
+}
